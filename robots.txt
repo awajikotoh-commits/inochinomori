@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://awajikotoh-commits.github.io/inochinomori/sitemap.xml
