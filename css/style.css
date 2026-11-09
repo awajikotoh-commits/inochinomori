@@ -439,3 +439,24 @@ ul.check li::before {
 /* ===== 試作版の表示（本番公開時に削除） ===== */
 .trial-bar { background: #5a4a3c; color: #fff; text-align: center; font-size: 13px; padding: 6px 16px; line-height: 1.6; }
 .nav-open .trial-bar { display: none; }
+
+/* ===== カレンダーの記号・QR ===== */
+.qr-box { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 20px; }
+.qr-box img { width: 120px; height: 120px; background: #fff; border-radius: 8px; border: 1px solid var(--line); }
+.qr-box p { margin: 0; font-size: 14px; color: var(--muted); text-align: left; }
+@media (max-width: 700px) { .qr-box { display: none; } }
+.legend { margin-top: 28px; }
+.legend h3 { font-size: 19px; text-align: center; }
+.legend > .note { text-align: center; }
+.legend-list { list-style: none; padding: 0; margin: 16px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 12px 24px; }
+.legend-list li { display: flex; align-items: flex-start; gap: 12px; }
+.legend-list strong { display: block; color: var(--brown); }
+.legend-list small { display: block; font-size: 13px; color: var(--muted); line-height: 1.6; }
+@media (max-width: 600px) { .legend-list { grid-template-columns: 1fr; } }
+.mark { flex: none; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; font-size: 22px; line-height: 1; background: var(--beige); }
+.mark-tag { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--beige); font-size: 15px; margin-left: 8px; vertical-align: top; }
+.m-ball { color: #8cc63f; }
+.m-kitchen { color: #e8423f; }
+.m-touch { color: #f08c8c; }
+.m-yoga { color: #f0a030; }
+.m-seitai { color: #f07a1a; }
